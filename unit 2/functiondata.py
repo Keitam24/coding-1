@@ -34,3 +34,8 @@ def temp(Fahrenheit):
     celsius = Fahrenheit - 32 * 0.59
     print('The weather today is' + str(Fahrenheit) + 'in Fahrenehit but it is' + str(celsius)  + ' Degrees in celsius .')
 temp(67)
+
+
+
+ 
+
