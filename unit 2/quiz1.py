@@ -57,8 +57,6 @@ print ((x==y))
 # the appropriat response of true or false.
 
 
-def hopethisworks(please1, please2):
-    
 
 
 
