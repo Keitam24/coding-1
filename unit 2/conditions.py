@@ -23,3 +23,43 @@ if password == 'skibiditoilet':
 
 else:
     print("Your password or email was incorrect, please try again.")
+
+ 
+
+vanilla = 0
+chocolate = 10
+strawberry = 10
+
+def iceCreamshop(vanilla):
+    if vanilla > 1:
+        print('we have vanilla in stock.')
+    elif chocolate > 1:
+        print ('we have chocolate in stock.') 
+    elif strawberry > 1:
+        print('we have strawberry in stock')
+    else:
+         print('we dont have that ice cream get out')       
+  
+
+
+down = input('What down is it')
+yards = input('How many yards do you need to get another first down? ')
+
+if down == 1 and yards <= 5:
+    print('rush')
+elif down == 2 and yards <= 5:
+    print('rush')
+elif down == 3 and yards <= 5:
+    print('pass')
+
+else:
+   print('punt')   
+
+
+
+
+age = input('Are you old enough to drive? ')
+if age >= '16':
+    print(' You are old enough to drive, congratulations.')
+else:
+    print('Sorry, you are not able to drive a car.')
