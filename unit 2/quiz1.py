@@ -30,14 +30,15 @@ print(30/ 232)
 # casts it to a float, and prints the result multiplied by 2.
 number = input() 
 zzz = float(number)
-print(str(zzz * 2))
+print(zzz * 2)
 # 6. What is the difference between a parameter and an argument?
 # Please write your response in complete sentences.
-"The difference between a parameter and an argument is that a parameter sets a limit for the function and the argument sets up the function"
+"The difference between a parameter and an argument is that a parameter is a variable or placeholder in the function definition"
+"and an argument is the actual values that go in the function."
 # 7. What is the difference between a function definition 
 # and a function invocation? # Please write your response in 
 # complete sentences.
-" A function definition passes data and executes the function while a function invocation calls the function."
+" A function definition is the code instructions for a program while a function invocation calls the function."
 # 8. Why are functions useful in programming? Provide at least two reasons 
 # and write your reasons in in complete sentences.
 "Because they can perform complex things easier and can execute code as soon as it is written."
