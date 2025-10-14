@@ -60,7 +60,7 @@ def atm():
             print('Finally getting some bread in here but how much? ')
             amount = int(input())
             newbalance = balance + amount
-            print('You now have ' + str(newbalance) + 'dollars in your account.')
+            print('You now have ' + str(newbalance) + ' dollars in your account.')
         if select == 3:
             print('You have ' + str(balance) + ' amount of dollars in your account.')        
     else:
