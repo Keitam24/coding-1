@@ -1,0 +1,10 @@
+for loop
+a for loop is a type of loop that will iterate or count over something. It will run the code instructions up to the amount of times it needs to. 
+A for loop is good for checking or running code upto a certain number of times. An example would be a grade checker that checks all the students in school to see
+who made honor role.
+
+While loop
+A while loop is a type of loop that will repeat a set of instructions so long as the looping condition is true.
+A while loop allows for your program to continue running until something specific tells it otherwise.
+An example would be entering a bar; so long as you are not 21, you cannot enter.
+print
