@@ -25,4 +25,24 @@ def questiontwo():
    print(yournumber)
    numberlist = input('Add to the list before i get mad: ')
    
-questiontwo() 
+
+
+
+
+
+def question3():
+  thecorrectnumber = 41
+  yournumber = int(input('Guess the correct number'))
+  while yournumber != thecorrectnumber:
+    if yournumber == thecorrectnumber:
+      print('Congratulations, you chose the correct number!')
+      break
+    elif yournumber > thecorrectnumber:
+      print('Your number is higher then the correct number, try again.')
+    elif yournumber < thecorrectnumber:
+      print('Your number is less than the correct number, try again.')
+    yournumber = int(input('Guess the correct number'))
+
+question3()      
+
+      
