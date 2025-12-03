@@ -59,3 +59,16 @@ studentBody= ['jordan', 'joel', 'mohamed']
 for student in studentBody:
     print('is'  + student + 'scanned in today?')
     response = input()     
+
+
+
+
+    def checkout():
+        grocerybag = [1,20,3,6,7]
+        total = 0
+
+        for item in grocerybag:
+            item+= item
+            print(total)
+
+        checkout()    
