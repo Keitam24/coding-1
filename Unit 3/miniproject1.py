@@ -70,7 +70,7 @@ def quiz():
        print('current score is' + str(yourscore) + '/5')
        print('Your test is now completed, your score is:' + str(yourscore))
     elif yourscore == 0:
-       print('you suck dude')
+       print('my god you suck dude')
 
 
     else:
