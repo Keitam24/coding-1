@@ -53,10 +53,10 @@ def quiz():
     if correctanswer4 == studentanswer4:
        yourscore += 1
        questions += 1
-       print('current score is ' + str(yourscore) + '/10')
+       print('current score is ' + str(yourscore) + '/5')
        print('Next Question.')
     else:
-        print('current score is ' + str(yourscore) + '/10')
+        print('current score is ' + str(yourscore) + '/5')
         print('Next Question.')
         questions += 1
 
@@ -67,9 +67,10 @@ def quiz():
     if correctanswer5 == studentanswer5:
        yourscore+=1
        
-       print('current score is' + str(yourscore) + '/10')
+       print('current score is' + str(yourscore) + '/5')
        print('Your test is now completed, your score is:' + str(yourscore))
        print(' i lied you have to keep going')
+       print('. what is a function parameter? ')
     elif yourscore == 0:
        print('my god you suck dude')
 
@@ -79,6 +80,7 @@ def quiz():
        
        print('Your test is now completed, your score is:' + str(yourscore))
        print(' i lied you have to keep going')
+       
       
        print('. what is a function parameter? ')
     print("A. a variable that uses data")
@@ -92,6 +94,7 @@ def quiz():
        
        print('current score is' + str(yourscore) + '/10')
        print('Next Question.')
+       print('. What is a for loop? ')
     else:
       print('current score is' + str(yourscore) + '/10')
       
@@ -122,6 +125,7 @@ def quiz():
        
        print('current score is' + str(yourscore) + '/10')
        print('Next Question.')
+       print(' True or false, a 0 and 1 can be considered booleans? ')
     else:
       print('current score is' + str(yourscore) + '/10')
       print('Next Question.')
