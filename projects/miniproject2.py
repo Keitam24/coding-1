@@ -9,7 +9,7 @@ def gpacalcformath():
   for week in range(1, weeks + 1):
         while True:
             
-              grade = float(input("What's your grade for this week? {week}: "))
+              grade = float(input("What's your grade for this week?: "))
               if 0 <= grade <= 100:
                totalmathgrade += grade
               break
