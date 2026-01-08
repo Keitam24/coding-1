@@ -125,7 +125,7 @@ def quiz():
        
        print('current score is' + str(yourscore) + '/10')
        print('Next Question.')
-       print(' True or false, a 0 and 1 can be considered booleans? ')
+       print('- True or false, a 0 and 1 can be considered booleans? ')
     else:
       print('current score is' + str(yourscore) + '/10')
       print('Next Question.')
