@@ -8,6 +8,7 @@ import random
 def ofakillayougetit():
     wordpool = ["Insidious", "Fragmentalism", "Malpractice", "Inconsequential"]
     correctword = ''
+    attempts = 0
     randomselect = random.randint(0,3)
     print(randomselect)
 
@@ -35,8 +36,15 @@ def ofakillayougetit():
 
     if userguess == correctword:
         print('You Win')
-    else: 
-        print('labubuuuuuuu')
+    while userguess != correctword:
+        attempts += 1
+        print('Wrong, Your number of attempts left are: ' + str(attempts) + ' / 3')
+        userguess =  input('Try not to get it wrong this time.: ')
+        if attempts == 3:
+            print('labubuuuuuuu')
+            break
+   
+    else: print("I don't think this was supposed to happen...")       
 
 
 ofakillayougetit()    
