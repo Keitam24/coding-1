@@ -8,7 +8,7 @@ import random
 def ofakillayougetit():
     wordpool = ["Insidious", "Fragmentalism", "Malpractice", "Inconsequential"]
     correctword = ''
-    attempts = 0
+    attempts = 1
     randomselect = random.randint(0,3)
     print(randomselect)
 
@@ -44,7 +44,7 @@ def ofakillayougetit():
             print('labubuuuuuuu')
             break
    
-    else: print("I don't think this was supposed to happen...")       
+         
 
 
 ofakillayougetit()    
